@@ -1,7 +1,7 @@
 import React from 'react';    
 import './App.css';
-import PokemonPage from './Pages/Pokemon';
-import Test from './components/Test'
+import PokemonPage from './Pages/PokemonPage';
+
 function App() {
   return (
     <div className="App">

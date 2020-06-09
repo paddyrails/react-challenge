@@ -15,11 +15,18 @@ const pokemonList = props => {
                         <h2>{pokemon.num}</h2>
                     </div>
                     <div className="pokemons_list-details">
-                        <div>
+                        <div className="list_box">
+                            <header className="list_header">
+                            <b>Type</b>
+                            </header>
+                                
                             <ShowList propertyArray={pokemon.type} />
                         </div>
-                        <div>
-                            {/* <ShowList propertyArray={pokemon.weaknesses} /> */}
+                        <div  className="list_box">
+                            <header className="list_header">
+                            <b>Weakness</b>
+                            </header>
+                             <ShowList propertyArray={pokemon.weaknesses} /> 
                         </div>                    
                     </div>
                 </li>

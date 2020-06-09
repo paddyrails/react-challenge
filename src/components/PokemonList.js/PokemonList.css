@@ -1,13 +1,15 @@
 .pokemons_list{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    width: 80%;
+    
+    padding: 10px;
 }
 
 .pokemons_item{
     margin: 0.5rem 0;
     padding: 0.5rem;
-    border: solid 1px  #5101d1;
+    border: solid 1px  #1a2b5a;
     display: flex;
     justify-content: space-between;
 }
@@ -15,7 +17,7 @@
 .pokemons_item{
     margin: 1rem 0;
     padding: 1rem;
-    border: 1px solid #5101d1;
+    border: 1px solid #1a2b5a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +26,7 @@
 .pokemons_item h1 {
     margin: 0;
     font-size: 1.5rem;
-    color:  #5101d1;
+    color:  #1a2b5a;
 }
 
 .pokemons_item h2 {
@@ -42,5 +44,19 @@
     padding: 0.5rem;    
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    vertical-align: top;
+}
+
+.list_header {
+    padding: 1rem;
+    background: #1a2b5a;
+    color: white;
+    vertical-align: top;
+  }
+
+.list_box{
+    margin: 0 5px;
+    width: 120px;
+    border: #1a2b5a 1px solid;
+    text-align: left;
 }
